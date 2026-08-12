@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "sdk_version": "0.26.2",
+  "path": "/mcp",
+  "auth": {
+    "type": "none"
+  },
+  "mcp": {
+    "server": {
+      "name": "decorize-elegance-landing",
+      "version": "0.1.0",
+      "title": "Decorize Elegance Landing"
+    },
+    "tools": [
+      {
+        "name": "get_product",
+        "title": "Detalhes do produto",
+        "description": "Retorna os detalhes públicos do móvel da Decorize: descrição, materiais e ambientes sugeridos.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "product": {}
+          },
+          "required": [
+            "product"
+          ]
+        }
+      },
+      {
+        "name": "get_offer",
+        "title": "Oferta e preços",
+        "description": "Retorna a oferta pública: preço ancorado, preço atual, formas de pagamento, garantia e prazo de entrega.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {}
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "offer": {}
+          },
+          "required": [
+            "offer"
+          ]
+        }
+      },
+      {
+        "name": "search_faq",
+        "title": "Buscar nas dúvidas frequentes",
+        "description": "Busca nas dúvidas frequentes públicas da Decorize. Sem termo de busca, retorna todas as perguntas.",
+        "annotations": {
+          "readOnlyHint": true,
+          "idempotentHint": true,
+          "openWorldHint": false
+        },
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "query": {
+              "description": "Termo de busca opcional (ex.: entrega, garantia).",
+              "type": "string"
+            }
+          }
+        },
+        "outputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "results": {}
+          },
+          "required": [
+            "results"
+          ]
+        }
+      }
+    ]
+  }
+}
