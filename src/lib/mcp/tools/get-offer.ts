@@ -1,4 +1,5 @@
 import { defineTool } from "@lovable.dev/mcp-js";
+import { z } from "zod";
 import { offer } from "../catalog";
 
 export default defineTool({
@@ -7,6 +8,7 @@ export default defineTool({
   description:
     "Retorna a oferta pública: preço ancorado, preço atual, formas de pagamento, garantia e prazo de entrega.",
   inputSchema: {},
+  outputSchema: { offer: z.unknown() },
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: () => ({
     content: [{ type: "text" as const, text: JSON.stringify(offer, null, 2) }],

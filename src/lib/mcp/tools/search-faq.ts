@@ -10,6 +10,7 @@ export default defineTool({
   inputSchema: {
     query: z.string().trim().optional().describe("Termo de busca opcional (ex.: entrega, garantia)."),
   },
+  outputSchema: { results: z.unknown() },
   annotations: { readOnlyHint: true, idempotentHint: true, openWorldHint: false },
   handler: ({ query }) => {
     const q = query?.toLowerCase() ?? "";
