@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     q: "Preciso montar o móvel?",
-    a: "O produto chega pré-montado em 90%. A montagem final leva menos de 10 minutos e não requer ferramentas especiais.",
+    a: "O produto chega pré-montado em 70%. A montagem final leva menos de 30 minutos e não requer ferramentas especiais.",
   },
 ];
 
@@ -69,7 +69,7 @@ function Index() {
             </a>
           </div>
           <a
-            href="#oferta"
+            href="https://decorize.mycartpanda.com/checkout/212048587:1"
             className="rounded-full border border-border px-5 py-2 text-sm font-medium transition-colors hover:border-foreground"
           >
             Comprar
@@ -86,11 +86,11 @@ function Index() {
               Nova coleção — Nogueira & Bouclê
             </span>
             <h1 className="text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
-              Móveis que
+              O detalhe que faltava para deixar
               <br />
-              transformam
+              seu ambiente
               <br />
-              <span className="text-primary">ambientes.</span>
+              <span className="text-primary">mais elegante.</span>
             </h1>
             <p className="mt-7 max-w-md text-lg leading-relaxed text-muted-foreground">
               Design minimalista, madeira maciça de nogueira e tecido bouclê
@@ -98,7 +98,7 @@ function Index() {
             </p>
             <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
               <a
-                href="#oferta"
+                href="https://decorize.mycartpanda.com/checkout/212048587:1"
                 className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 text-base font-medium text-primary-foreground shadow-[0_8px_24px_-8px_color-mix(in_oklab,var(--primary)_55%,transparent)] transition-all hover:brightness-105 hover:shadow-[0_12px_32px_-8px_color-mix(in_oklab,var(--primary)_65%,transparent)]"
               >
                 Comprar agora
@@ -137,7 +137,7 @@ function Index() {
             <div className="absolute -bottom-5 -left-5 hidden rounded-2xl border border-border bg-card/90 px-5 py-4 backdrop-blur md:block">
               <p className="text-xs text-muted-foreground">A partir de</p>
               <p className="text-2xl font-semibold text-foreground">
-                R$ 1.297
+                R$ 79.90
               </p>
             </div>
           </div>
@@ -229,14 +229,14 @@ function Index() {
               Materiais & Qualidade
             </span>
             <h2 className="mt-4 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-              Feito para durar
+              Acabamento & Qualidade feito
               <br />
-              gerações
+              para durar
             </h2>
             <p className="mt-5 max-w-md text-lg leading-relaxed text-muted-foreground">
-              Cada peça é construída à mão por artesanos. Usamos madeira maciça
-              de nogueira selecionada e tecido bouclê natural — materiais que
-              ganham caráter com o tempo.
+               Desenhada para unir funcionalidade e estilo, nossa mesa utiliza materiais de 
+               alta densidade com textura amadeirada e acabamento fosco. É a combinação perfeita 
+               para transformar seu ambiente com um toque moderno, sem pesar no seu bolso.
             </p>
 
             <ul className="mt-9 space-y-6">
@@ -245,10 +245,11 @@ function Index() {
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5" /></svg>
                 </span>
                 <div>
-                  <h3 className="font-medium text-foreground">Madeira maciça de nogueira</h3>
+                  <h3 className="font-medium text-foreground">Textura Amadeirada Premium</h3>
                   <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
-                    Estrutura resistente com veios naturais únicos. Acabamento
-                    à mão com óleo vegetal.
+                    Superfície resistente com veios elegantes que trazem 
+                    o aconchego da madeira natural. Acabamento de alta durabilidade, 
+                    protegido contra o desgaste do dia a dia e super fácil de limpar.
                   </p>
                 </div>
               </li>
@@ -257,10 +258,11 @@ function Index() {
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5" /></svg>
                 </span>
                 <div>
-                  <h3 className="font-medium text-foreground">Tecido bouclê natural</h3>
+                  <h3 className="font-medium text-foreground">Design em Contraste (Industrial Minimalista)</h3>
                   <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
-                    Textura aconchegante, respirável e durável. Removível para
-                    limpeza, com proteção anti-manchas.
+                    Laterais robustas em tom sólido (Preto ou Branco) que destacam as prateleiras 
+                    amadeiradas. Um visual contemporâneo que se adapta perfeitamente ao lado da 
+                    sua cama, sofá ou mesa de escritório.
                   </p>
                 </div>
               </li>
@@ -269,10 +271,11 @@ function Index() {
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6 9 17l-5-5" /></svg>
                 </span>
                 <div>
-                  <h3 className="font-medium text-foreground">Montagem artesanal</h3>
+                  <h3 className="font-medium text-foreground">Pés Palito Retrô</h3>
                   <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
-                    Cada união é verificada manualmente. Garantia estrutural de
-                    5 anos inclusa.
+                    Estrutura com base elevada que, além de adicionar um charme 
+                    vintage e sofisticado ao design, garante total estabilidade 
+                    ao móvel e facilita a limpeza do piso do seu ambiente.
                   </p>
                 </div>
               </li>
@@ -301,10 +304,10 @@ function Index() {
 
               <div className="flex items-baseline gap-3">
                 <span className="text-2xl font-light text-muted-foreground line-through">
-                  R$ 1.897
+                  R$ 107,90
                 </span>
                 <span className="text-5xl font-semibold tracking-tight text-foreground md:text-6xl">
-                  R$ 1.297
+                  R$ 79,90
                 </span>
               </div>
               <p className="-mt-3 text-sm text-muted-foreground">
@@ -329,10 +332,10 @@ function Index() {
               </div>
 
               <a
-                href="#"
+                href="https://decorize.mycartpanda.com/checkout/212048587:1"
                 className="mt-4 inline-flex w-full items-center justify-center rounded-full bg-primary px-8 py-5 text-lg font-medium text-primary-foreground shadow-[0_10px_30px_-8px_color-mix(in_oklab,var(--primary)_60%,transparent)] transition-all hover:brightness-105 hover:shadow-[0_16px_40px_-8px_color-mix(in_oklab,var(--primary)_70%,transparent)]"
               >
-                Comprar agora — R$ 1.297
+                Comprar agora — R$ 79,90
               </a>
               <p className="text-xs text-muted-foreground">
                 Garantia de 7 dias · Frete grátis para todo o Brasil
@@ -409,7 +412,7 @@ function Index() {
               Decorize
             </p>
             <p className="text-sm text-muted-foreground">
-              Móveis que transformam ambientes. © {new Date().getFullYear()} Decorize.
+              O detalhe que faltava para deixar seu ambiente mais elegante. © {new Date().getFullYear()} Decorize.
             </p>
             <div className="flex gap-6 text-sm text-muted-foreground">
               <a href="#" className="transition-colors hover:text-foreground">
