@@ -311,7 +311,7 @@ function Index() {
                 </span>
               </div>
               <p className="-mt-3 text-sm text-muted-foreground">
-                ou 12x de R$ 108 sem juros no cartão
+                em até 12x no cartão
               </p>
 
               <div className="my-2 h-px w-full bg-border" />
