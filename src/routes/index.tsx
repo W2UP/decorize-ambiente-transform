@@ -69,7 +69,7 @@ function Index() {
             </a>
           </div>
           <a
-            href="https://decorize.mycartpanda.com/checkout/212048587:1"
+            href="https://checkout.decorize.com.br/checkout/212048587:1"
             className="rounded-full border border-border px-5 py-2 text-sm font-medium transition-colors hover:border-foreground"
           >
             Comprar
@@ -98,7 +98,7 @@ function Index() {
             </p>
             <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
               <a
-                href="https://decorize.mycartpanda.com/checkout/212048587:1"
+                href="https://checkout.decorize.com.br/checkout/212048587:1"
                 className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 text-base font-medium text-primary-foreground shadow-[0_8px_24px_-8px_color-mix(in_oklab,var(--primary)_55%,transparent)] transition-all hover:brightness-105 hover:shadow-[0_12px_32px_-8px_color-mix(in_oklab,var(--primary)_65%,transparent)]"
               >
                 Comprar agora
@@ -332,7 +332,7 @@ function Index() {
               </div>
 
               <a
-                href="https://decorize.mycartpanda.com/checkout/212048587:1"
+                href="https://checkout.decorize.com.br/checkout/212048587:1"
                 className="mt-4 inline-flex w-full items-center justify-center rounded-full bg-primary px-8 py-5 text-lg font-medium text-primary-foreground shadow-[0_10px_30px_-8px_color-mix(in_oklab,var(--primary)_60%,transparent)] transition-all hover:brightness-105 hover:shadow-[0_16px_40px_-8px_color-mix(in_oklab,var(--primary)_70%,transparent)]"
               >
                 Comprar agora — R$ 79,90
