@@ -12,13 +12,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Móveis de design minimalista em madeira nogueira e tecido bouclê. Qualidade artesanal que transforma qualquer ambiente.",
+          "Móveis de design minimalista com acabamento amadeirado premium. Qualidade que transforma qualquer ambiente com excelente custo-benefício.",
       },
       { property: "og:title", content: "Decorize — Móveis que transformam ambientes" },
       {
         property: "og:description",
         content:
-          "Móveis de design minimalista em madeira nogueira e tecido bouclê. Qualidade artesanal que transforma qualquer ambiente.",
+          "Móveis de design minimalista com acabamento amadeirado premium. Qualidade que transforma qualquer ambiente com excelente custo-benefício.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -51,8 +51,15 @@ function Index() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      
+      {/* ===== BARRA DE ANÚNCIO (TOP BANNER) ===== */}
+      <div className="absolute inset-x-0 top-0 z-40 bg-foreground px-4 py-2 text-center text-xs font-medium tracking-wide text-background">
+        🚀 Frete Expresso para São José do Rio Preto e região!
+      </div>
+
       {/* ===== NAV ===== */}
-      <header className="absolute inset-x-0 top-0 z-30">
+      {/* Ajustado o top-8 para não ficar embaixo da barra de anúncio */}
+      <header className="absolute inset-x-0 top-8 z-30">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-6 md:px-10">
           <a href="#" className="text-lg font-semibold tracking-tight">
             Decorize
@@ -79,7 +86,7 @@ function Index() {
 
       {/* ===== HERO ===== */}
       <section className="relative flex min-h-screen items-center bg-background">
-        <div className="mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-12 px-6 pt-28 pb-16 md:px-10 lg:grid-cols-2 lg:gap-16 lg:pt-32">
+        <div className="mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-12 px-6 pt-32 pb-16 md:px-10 lg:grid-cols-2 lg:gap-16 lg:pt-36">
           <div className="flex flex-col items-start">
             <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-3.5 py-1.5 text-xs font-medium tracking-wide text-muted-foreground backdrop-blur">
               <span className="h-1.5 w-1.5 rounded-full bg-primary" />
@@ -92,16 +99,17 @@ function Index() {
               <br />
               <span className="text-primary">mais elegante.</span>
             </h1>
+            {/* Texto ajustado para não mentir sobre o material e alinhar com o preço */}
             <p className="mt-7 max-w-md text-lg leading-relaxed text-muted-foreground">
-              Design minimalista, madeira maciça de nogueira e tecido bouclê
-              natural. Uma peça única que redefine qualquer espaço com elegância.
+              Design minimalista com acabamento amadeirado premium e laterais robustas. 
+              Uma peça única que redefine qualquer espaço com elegância e excelente custo-benefício.
             </p>
             <div className="mt-9 flex flex-col gap-4 sm:flex-row sm:items-center">
               <a
                 href="https://checkout.decorize.com.br/checkout/212048587:1"
                 className="inline-flex items-center justify-center rounded-full bg-primary px-8 py-4 text-base font-medium text-primary-foreground shadow-[0_8px_24px_-8px_color-mix(in_oklab,var(--primary)_55%,transparent)] transition-all hover:brightness-105 hover:shadow-[0_12px_32px_-8px_color-mix(in_oklab,var(--primary)_65%,transparent)]"
               >
-                Comprar agora
+                Comprar agora — R$ 79,90
               </a>
               <a
                 href="#detalhes"
@@ -110,6 +118,11 @@ function Index() {
                 Ver detalhes
               </a>
             </div>
+            {/* Ancoragem de preço logo no topo para evitar objeções */}
+            <p className="mt-4 text-sm font-medium text-muted-foreground">
+              🔥 Preço promocional. Apenas R$ 79,90 ou em até 12x.
+            </p>
+            
             <div className="mt-10 flex items-center gap-6 text-xs text-muted-foreground">
               <div className="flex flex-col">
                 <span className="text-base font-semibold text-foreground">4.9</span>
@@ -177,8 +190,8 @@ function Index() {
                   Cantinho de leitura
                 </h3>
                 <p className="mt-2 text-sm leading-relaxed text-muted-foreground">
-                  A luz natural da tarde encontra a textura do bouclê. Um refúgio
-                  aconchegante para os seus momentos de pausa.
+                  A luz natural da tarde encontra a textura aconchegante do acabamento. 
+                  Um refúgio perfeito para os seus momentos de pausa.
                 </p>
               </figcaption>
             </figure>
@@ -215,7 +228,7 @@ function Index() {
             <div className="overflow-hidden rounded-[1.75rem] border border-border">
               <img
                 src={detailImage}
-                alt="Detalhe macro da madeira nogueira e do tecido bouclê com costura fina"
+                alt="Detalhe macro do acabamento amadeirado"
                 width={1100}
                 height={900}
                 loading="lazy"
