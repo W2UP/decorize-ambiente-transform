@@ -83,7 +83,7 @@ function Index() {
           <div className="flex flex-col items-start">
             <span className="mb-6 inline-flex items-center gap-2 rounded-full border border-border bg-card/60 px-3.5 py-1.5 text-xs font-medium tracking-wide text-muted-foreground backdrop-blur">
               <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-              Nova coleção — Nogueira & Bouclê
+              Acabamento amadeirado premium com design minimalista
             </span>
             <h1 className="text-4xl font-semibold leading-[1.05] tracking-tight text-foreground sm:text-5xl lg:text-6xl">
               O detalhe que faltava para deixar
