@@ -494,7 +494,7 @@ function Index() {
                   <p>Segunda a Sexta: 08h às 18h</p>
                   <p>Sábado: 08h às 12h</p>
                   <p className="pt-2">Email: sac@decorize.com.br</p>
-                  <p>WhatsApp: (17) 99999-9999</p>
+                  <p>WhatsApp: (17) 98825-5123</p>
                 </div>
               </div>
               
@@ -503,7 +503,7 @@ function Index() {
                 <div className="space-y-2 text-sm text-muted-foreground">
                   <p>Enviamos com seguro para todo o Brasil.</p>
                   <p>Centro de Distribuição:</p>
-                  <p>Ibitinga / SP</p>
+                  <p>Catanduva / SP</p>
                 </div>
               </div>
               
@@ -511,7 +511,6 @@ function Index() {
                 <h4 className="font-semibold text-foreground mb-4">Empresa Verificada</h4>
                 <div className="space-y-2 text-sm text-muted-foreground">
                   <p>Ambiente de pagamento 100% seguro.</p>
-                  <p>CNPJ: 00.000.000/0001-00</p>
                   <p>Decorize Móveis e Decoração</p>
                 </div>
               </div>
