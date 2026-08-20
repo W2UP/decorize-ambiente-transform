@@ -4,10 +4,6 @@ import heroImage from "@/assets/hero-armchair.jpg";
 import versatility1 from "@/assets/versatility-1.jpg";
 import versatility2 from "@/assets/versatility-2.jpg";
 import detailImage from "@/assets/detail-material.jpg";
-// Importando as novas fotos da fábrica
-import fabrica1 from "@/assets/fabrica-1.png";
-import fabrica2 from "@/assets/fabrica-2.png";
-import fabrica3 from "@/assets/fabrica-3.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -325,44 +321,6 @@ function Index() {
                 </div>
               </li>
             </ul>
-          </div>
-        </div>
-      </section>
-
-      {/* ===== DIRETO DA FÁBRICA ===== */}
-      <section className="py-20 md:py-28 bg-secondary/30">
-        <div className="mx-auto max-w-7xl px-6 md:px-10">
-          <div className="text-center mb-12">
-            <span className="text-xs font-medium uppercase tracking-[0.2em] text-primary">
-              Produção Própria
-            </span>
-            <h2 className="mt-4 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
-              Direto da fábrica para o seu ambiente
-            </h2>
-            <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
-              Cada peça da Decorize é produzida com rigoroso controle de qualidade em nossa linha de produção em Catanduva/SP.
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="overflow-hidden rounded-2xl border border-border bg-card">
-              <img src={fabrica1} alt="Lotes de madeira na produção" className="aspect-[4/3] w-full object-cover" />
-              <div className="p-5">
-                <h3 className="font-semibold text-foreground">Matéria-Prima Selecionada</h3>
-              </div>
-            </div>
-            <div className="overflow-hidden rounded-2xl border border-border bg-card">
-              <img src={fabrica2} alt="Estrutura fabril" className="aspect-[4/3] w-full object-cover" />
-              <div className="p-5">
-                <h3 className="font-semibold text-foreground">Alta Capacidade Produtiva</h3>
-              </div>
-            </div>
-            <div className="overflow-hidden rounded-2xl border border-border bg-card">
-              <img src={fabrica3} alt="Produtos prontos para envio" className="aspect-[4/3] w-full object-cover" />
-              <div className="p-5">
-                <h3 className="font-semibold text-foreground">Envio Rápido e Seguro</h3>
-              </div>
-            </div>
           </div>
         </div>
       </section>
