@@ -4,6 +4,11 @@ import heroImage from "@/assets/hero-armchair.jpg";
 import versatility1 from "@/assets/versatility-1.jpg";
 import versatility2 from "@/assets/versatility-2.jpg";
 import detailImage from "@/assets/detail-material.jpg";
+// Importando as 4 novas fotos (Mude para .jpg se os seus arquivos forem jpg)
+import real1 from "@/assets/cliente-1.png";
+import real2 from "@/assets/cliente-2.png";
+import real3 from "@/assets/cliente-3.png";
+import real4 from "@/assets/cliente-4.png";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -321,6 +326,57 @@ function Index() {
                 </div>
               </li>
             </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* ===== 4 FOTOS REAIS / LIFESTYLE ===== */}
+      <section className="py-20 md:py-28 bg-secondary/30">
+        <div className="mx-auto max-w-7xl px-6 md:px-10">
+          <div className="text-center mb-12">
+            <span className="text-xs font-medium uppercase tracking-[0.2em] text-primary">
+              Na Prática
+            </span>
+            <h2 className="mt-4 text-3xl font-semibold tracking-tight text-foreground sm:text-4xl">
+              Veja a Decorize em ambientes reais
+            </h2>
+            <p className="mt-4 text-lg text-muted-foreground max-w-2xl mx-auto">
+              Detalhes do nosso acabamento de perto e fotos reais de clientes que já transformaram seus espaços.
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="overflow-hidden rounded-2xl border border-border bg-card group">
+              <img 
+                src={real1} 
+                alt="Detalhe e qualidade da Mesa Decorize" 
+                className="aspect-[4/5] w-full object-cover transition-transform duration-700 group-hover:scale-105" 
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl border border-border bg-card group">
+              <img 
+                src={real2} 
+                alt="Detalhe e qualidade da Mesa Decorize" 
+                className="aspect-[4/5] w-full object-cover transition-transform duration-700 group-hover:scale-105" 
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl border border-border bg-card group">
+              <img 
+                src={real3} 
+                alt="Detalhe e qualidade da Mesa Decorize" 
+                className="aspect-[4/5] w-full object-cover transition-transform duration-700 group-hover:scale-105" 
+              />
+            </div>
+            <div className="overflow-hidden rounded-2xl border border-border bg-card group relative">
+              <img 
+                src={real4} 
+                alt="Foto real enviada por cliente da Mesa Decorize" 
+                className="aspect-[4/5] w-full object-cover transition-transform duration-700 group-hover:scale-105" 
+              />
+              <div className="absolute top-4 left-4 rounded-full bg-background/80 backdrop-blur px-3 py-1 text-xs font-semibold text-foreground shadow-sm">
+                📸 Foto de Cliente
+              </div>
+            </div>
           </div>
         </div>
       </section>
